@@ -206,6 +206,54 @@ main{
     
 }
 /* more button section  ends */
+/* footer section */
+.footer{
+    max-width: 1200px;
+    max-height: 300px;
+    border: 1px solid tomato;
+    background-color: aqua;
+}
+.logo-container-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.social{
+    text-align: center;
+    margin-top: 20px;
+}
+.social a{
+    text-decoration: none;
+    color: #0B0223;
+    margin-left: 10px;
+}
+.icon-train{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.last-property{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px dotted blueviolet;
+    text-align: center;
+    margin-top: 20px;
+}
+.last-property a{
+    text-decoration: none;
+    color: #0B0223;
+    margin-left: 20px;
+}
+.small-footer{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+
 /* responsive mode start */
 
 /* mobile device */
