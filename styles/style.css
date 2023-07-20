@@ -133,52 +133,79 @@
 
 /* Banner section style end here */
 
+/* we are gamer part starts */
+.we-are-gamer-content h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.we-are-gamer{
+    display: flex;
+    text-align: right;
+}
+/* we are gamer part ends */
+
 /* main section start */
-main{
+main {
     width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
-.card-container{
+.card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 
 }
-.card-container img{
+
+.card-container img {
     width: 250px;
     height: 280px;
-    
+
 }
+
 /* main section end */
 
 /* play instant section start */
-.play-instant{
+.play-instant {
     width: 1100px;
     margin: 0 auto;
 }
-.play-instant{
+
+.play-instant {
     display: flex;
     align-items: center;
     margin-top: 15px;
     justify-content: space-between;
 }
-.div-pink{
+
+.div-pink {
     color: #FF42A5;
-    
+
 }
-.div-content{
+
+.div-content {
     width: 50%;
 }
-.div-picture{
+
+.div-picture {
     width: 50%;
 }
-.div-picture img{
+
+.div-picture img {
     height: 80%;
     margin-left: 50px;
 }
-.p-pic{
+
+.p-pic {
     position: relative;
     bottom: 200px;
     right: 50px;
@@ -188,64 +215,73 @@ main{
 /* play instant section end */
 
 /* more button section starts */
-.more-button{
+.more-button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.single{
+
+.single {
     display: flex;
     border: 1px solid #FF42A5;
     border-radius: 45px;
     background-color: #cfc6e7;
     padding: 10px;
 }
-.single img{
+
+.single img {
     width: 60px;
     height: 60px;
-    
+
 }
+
 /* more button section  ends */
 /* footer section */
-.footer{
+.footer {
     max-width: 1200px;
     max-height: 300px;
     border: 1px solid tomato;
     background-color: aqua;
 }
-.logo-container-2{
+
+.logo-container-2 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.social{
+
+.social {
     text-align: center;
     margin-top: 20px;
 }
-.social a{
+
+.social a {
     text-decoration: none;
     color: #0B0223;
     margin-left: 10px;
 }
-.icon-train{
+
+.icon-train {
     text-align: center;
     font-size: 45px;
     margin-top: 20px;
 }
 
-.last-property{
+.last-property {
     width: 50%;
     margin: 0 auto;
     border: 1px dotted blueviolet;
     text-align: center;
     margin-top: 20px;
 }
-.last-property a{
+
+.last-property a {
     text-decoration: none;
     color: #0B0223;
     margin-left: 20px;
 }
-.small-footer{
+
+.small-footer {
     font-size: 10px;
     text-align: center;
 }
@@ -294,28 +330,41 @@ main{
         width: 100%;
         height: 100%;
     }
-    .card-container{
+
+    .card-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    main{
+
+    main {
         width: 100%;
         margin: 0 auto;
     }
-    .play-instant{
+
+    .play-instant {
         width: 100%;
         flex-direction: column;
     }
-    .div-picture img{
+
+    .div-picture img {
         width: 100%;
     }
-    .p-pic{
+
+    .p-pic {
         position: relative;
-        top:30px;
+        top: 30px;
     }
-    .more-button{
+
+    .more-button {
         flex-direction: column;
     }
-    
+    .we-are-gamer{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .we-are-gamer-image img{
+        width: 100%;
+    }
+
 
 }
 
@@ -347,27 +396,42 @@ main{
         width: 100%;
         height: 100%;
     }
-    .banner-content h3{
+
+    .banner-content h3 {
         padding-top: 15px;
     }
-    .card-container{
+
+    .card-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    main{
+
+    main {
         width: 100%;
         margin: 0 auto;
     }
-    .play-instant{
+
+    .play-instant {
         width: 100%;
         flex-direction: column;
     }
-    .p-pic{
+
+    .p-pic {
         position: relative;
-        top:30px;
+        top: 30px;
         width: 100%;
     }
-    .div-picture img{
+
+    .div-picture img {
         width: 100%;
     }
+    .we-are-gamer{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .we-are-gamer-image img{
+        width: 100%;
+    }
+
 }
+
 /* responsive mode end */
