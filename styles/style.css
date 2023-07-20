@@ -286,6 +286,7 @@ main p{
     text-decoration: none;
     color: #0B0223;
     margin-left: 10px;
+    font-weight: 600;
 }
 
 .icon-train {
@@ -306,6 +307,7 @@ main p{
     text-decoration: none;
     color: #0B0223;
     margin-left: 20px;
+    font-weight: 400;
 }
 
 .small-footer {
